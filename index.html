@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amith P - Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">&lt;A/P&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Amith Palissery</h1>
+                    <h2>Data Science Student & Developer</h2>
+                    <div class="typing-container">
+                        <span id="element"></span>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">
+                            View Projects
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn secondary">
+                            Contact Me
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-images">
+                    <img src="images/hello.png" alt="Hello" class="hello-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/amith.jpg" alt="Amith P" class="profile-img">
+                    <div class="image-decoration"></div>
+                </div>
+                <div class="about-text">
+                    <p>Hey! I'm Amith P, a final year undergraduate student who enjoys bringing ideas to life through code. Outside of coding and my internship at Cognizant, you'll find me analyzing market charts for trading or plotting my next chess move - two passions that actually help me think better about data! </p>
+                    
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="edu-item">
+                            <h4>MAR ATHANASIUS COLLEGE OF ENGINEERING</h4>
+                            <p>B.Tech in Computer Science (Data Science)</p>
+                            <span>Expected 2025</span>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Java</span>
+                            <span>C/C++</span>
+                            <span>SQL</span>
+                            <span>R</span>
+                            <span>Tableau</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <!-- Eclipse Project -->
+                <div class="project-card" data-project="eclipse">
+                    <div class="project-image">
+                        <img src="images/eclipse1.png" alt="Eclipse Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Eclipse</h3>
+                        <p>Educational website about solar eclipses developed for NASA Space Apps Hackathon</p>
+                        <div class="project-links">
+                            <a href="https://github.com/amithpalissery/nasa-web-eclipse" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WebX Project -->
+                <div class="project-card" data-project="webx">
+                    <div class="project-image">
+                        <img src="images/webx1.png" alt="WebX Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>WebX Chatbot</h3>
+                        <p>Created a chatbot to provide quick access to online insights</p>
+                        <div class="project-links">
+                            <a href="https://github.com/amithpalissery/WEBX" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Relief Hub Project -->
+                <div class="project-card" data-project="relief">
+                    <div class="project-image">
+                        <img src="images/relief1.jpg" alt="Relief Hub Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Relief Hub</h3>
+                        <p>A blockchain-based platform that gives donors control through transparent voting on fund usage, ensuring accountability</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Management Project -->
+                <div class="project-card" data-project="event">
+                    <div class="project-image">
+                        <img src="images/event1.png" alt="Event Management Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Event Management System</h3>
+                        <p>Comprehensive system for managing events and registrations</p>
+                        <div class="project-links">
+                            <a href="https://github.com/amithpalissery/EventManagementSystems" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info">
+                <a href="mailto:Amithpalissery26702@gmail.com" class="contact-item email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Amithpalissery26702@gmail.com</span>
+                </a>
+                <a href="tel:+918593815280" class="contact-item phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 8593815280</span>
+                </a>
+                <a href="https://linkedin.com/in/amithpalissery" 
+                   class="contact-item linkedin" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                    <span>linkedin.com/in/amithpalissery</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Amith P. All rights reserved.</p>
+    </footer>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Google Certified Data Analyst', 'Development Intern at Cognizant'],
+            typeSpeed: 60,
+            backSpeed: 90,
+            backDelay: 500,
+            startDelay: 500,
+            loop: true
+        });
+    </script>
+
+    <!-- Simplified Modal Structure -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            
+            <!-- Gallery Section -->
+            <div class="gallery-container">
+                <div class="main-image-container">
+                    <img src="" alt="Project Image" class="modal-image">
+                    <button class="gallery-nav prev">❮</button>
+                    <button class="gallery-nav next">❯</button>
+                </div>
+                <div class="thumbnail-container">
+                    <!-- Thumbnails will be added here -->
+                </div>
+            </div>
+
+            <h2 class="modal-title"></h2>
+            <div class="modal-description"></div>
+        </div>
+    </div>
+</body>
+</html> 
